@@ -6,26 +6,26 @@ navigation: false
 ::hero
 ---
 announcement:
-  title: 'Release v1'
+  title: 'Release v1-alpha'
   icon: '🎉'
-  to: https://shadcn-docs-nuxt.vercel.app/blog/v1
+  to: https://github.com/awfixers-stuff/nixos-config/releases/tag/v1-alpha
   target: _blank
 actions:
-  - name: Documentation
-    to: https://shadcn-docs-nuxt.vercel.app/getting-started/introduction
+  - name: Discord
+    to: https://discord.gg/ajsbasement
   - name: GitHub
     variant: outline
-    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+    to: https://github.com/awfixers-stuff/nixos-config
     leftIcon: 'lucide:github'
 ---
 
 #title
-Welcome to shadcn-docs-nuxt
+Welcome to the future docs for my NixOS Configuration
 
 #description
-Beautifully designed Nuxt Content template built with shadcn-vue. :br Customizable. Compatible. Open Source.
+This is going to be the go too place for quick reference docs so that you can use my cofigs and scripts on your system. For Advanced help you will always have to join the Discord, server. Unless you hear from me in the Discord that we are moving elsewhere it is a scam and they wanna give you a virus.
 ::
 
 ::div{class="border rounded-lg shadow-md"}
-  :iframe{src="https://shadcn-docs-nuxt.vercel.app/getting-started/introduction" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0"}
+  :iframe{src="https://theautist.me" height="700" width="100%" class="rounded-lg" scrolling="yes" frameborder="0"}
 ::
