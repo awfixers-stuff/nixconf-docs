@@ -524,8 +524,8 @@ packages:
     resolution: {integrity: sha512-RBMg5FRL0I0gs51M/guSAj5/e14VQ4tpZnQNWwuDT66P14I43ItmPfIZRhO9fUVIPOAQXU47atlywZ/czoqFPA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@eslint/plugin-kit@0.3.3':
-    resolution: {integrity: sha512-1+WqvgNMhmlAambTvT3KPtCl/Ibr68VldY2XY40SL1CE0ZXiakFR/cbTspaF5HsnpDMvcYYoJHfl4980NBjGag==}
+  '@eslint/plugin-kit@0.3.4':
+    resolution: {integrity: sha512-Ul5l+lHEcw3L5+k8POx6r74mxEYKG5kOb6Xpy2gCRW6zweT6TEhAf8vhxGgjhqrd/VO/Dirhsb+1hNpD1ue9hw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@fastify/accept-negotiator@1.1.0':
@@ -3210,8 +3210,8 @@ packages:
     resolution: {integrity: sha512-UxC0Yv1Y4WRJiGQxQkP0hfdL0/5/6YvdfOOClRgJ0qppSarkhneSa6UvkMkms0AkdGimSH3Ikqm+6mkMmX7vGA==}
     engines: {node: '>=12.22.0'}
 
-  ipx@2.1.0:
-    resolution: {integrity: sha512-AVnPGXJ8L41vjd11Z4akIF2yd14636Klxul3tBySxHA6PKfCOQPxBDkCFK5zcWh0z/keR6toh1eg8qzdBVUgdA==}
+  ipx@2.1.1:
+    resolution: {integrity: sha512-XuM9FEGOT+/45mfAWZ5ykwkZ/oE7vWpd1iWjRffMWlwAYIRzb/xD6wZhQ4BzmPMX6Ov5dqK0wUyD0OEN9oWT6g==}
     hasBin: true
 
   iron-webcrypto@1.2.1:
@@ -5946,7 +5946,7 @@ snapshots:
 
   '@eslint/object-schema@2.1.6': {}
 
-  '@eslint/plugin-kit@0.3.3':
+  '@eslint/plugin-kit@0.3.4':
     dependencies:
       '@eslint/core': 0.15.1
       levn: 0.4.1
@@ -6450,7 +6450,7 @@ snapshots:
       std-env: 3.9.0
       ufo: 1.6.1
     optionalDependencies:
-      ipx: 2.1.0(@netlify/blobs@9.1.2)(db0@0.3.2)(ioredis@5.6.1)
+      ipx: 2.1.1(@netlify/blobs@9.1.2)(db0@0.3.2)(ioredis@5.6.1)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -8591,7 +8591,7 @@ snapshots:
       '@eslint/core': 0.15.1
       '@eslint/eslintrc': 3.3.1
       '@eslint/js': 9.31.0
-      '@eslint/plugin-kit': 0.3.3
+      '@eslint/plugin-kit': 0.3.4
       '@humanfs/node': 0.16.6
       '@humanwhocodes/module-importer': 1.0.1
       '@humanwhocodes/retry': 0.4.3
@@ -9194,7 +9194,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ipx@2.1.0(@netlify/blobs@9.1.2)(db0@0.3.2)(ioredis@5.6.1):
+  ipx@2.1.1(@netlify/blobs@9.1.2)(db0@0.3.2)(ioredis@5.6.1):
     dependencies:
       '@fastify/accept-negotiator': 1.1.0
       citty: 0.1.6
